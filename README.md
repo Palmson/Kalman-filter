@@ -75,9 +75,3 @@ Kalman-filter/
 └── requirements.txt
 ```
 
-## Roadmap
-
-- [ ] Convert units before fusion: GPS speed is in m/s and OBD speed is in km/h, so the filter currently mixes different units
-- [ ] Use a separate reference and noisy measurements in the position demo (right now both are the same series)
-- [ ] Fix the column selection error in the first speed-filter cell and remove the unfinished map animation cells
-- [ ] Add accelerometer data to the filter
